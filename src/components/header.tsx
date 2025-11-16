@@ -71,7 +71,7 @@ const Header = ({ showBackToHome = false }: HeaderProps) => {
   );
 
   return (
-    <div className="flex items-center justify-between px-8 pb-8">
+    <div className="flex items-center justify-between px-4 pb-4 md:px-8 md:pb-8">
       <div className="flex items-center gap-2">
         <img src={'/logo.svg'} alt="logo" />
         <p className="text-base font-bold">foo-rum</p>
